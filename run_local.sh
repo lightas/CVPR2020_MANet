@@ -1,4 +1,4 @@
-PRETRAIN_MODEL='/home/miaojiaxu/jiaxu/model_best.pth.tar'
+PRETRAIN_MODEL='./model_best.pth.tar'
 VOS_SAVE_RESULT_DIR='/data01/jiaxu/saved_model/stage1'
 INT_SAVE_RESULT_DIR='/data01/jiaxu/saved_model/stage2'
 INT_RESULT_DIR='/data01/jiaxu/saved_model/result'
