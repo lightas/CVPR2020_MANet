@@ -19,6 +19,8 @@ Download [DAVIS2017](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-201
 ```
 sh run_local.sh
 ```
+## Evaluation
+You can download [our model](https://drive.google.com/file/d/1JjYNha40rtEYKKKFtDv06myvpxagl5dW/view?usp=sharing) for evaluation.
 
 ## Citation
 Please cite this paper in your publications if it helps your research:
