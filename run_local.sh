@@ -4,7 +4,7 @@ INT_SAVE_RESULT_DIR='/data01/jiaxu/saved_model/stage2'
 INT_RESULT_DIR='/data01/jiaxu/saved_model/result'
 RESCALE=416
 RANDOMCROP=416
-DATA_ROOT='/home/miaojiaxu/jiaxu_2/data/DAVIS'
+DATA_ROOT='/yourdataroot/DAVIS'
 echo 'Stage1 training'
 python train_stage1.py --SAVE_RESULT_DIR $VOS_SAVE_RESULT_DIR --PRETRAINED_MODEL $PRETRAIN_MODEL --DATA_ROOT $DATA_ROOT --TRAIN_BATCH_SIZE 2 --DATA_RESCALE $RESCALE --DATA_RANDOMCROP $RANDOMCROP --TRAIN_LR 0.0007  --MODEL_MAX_LOCAL_DISTANCE 12
 echo 'Stage2 training'
