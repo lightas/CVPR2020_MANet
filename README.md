@@ -13,6 +13,8 @@ This is the pytorch implementation of the CVPR2020 paper "Memory aggregation net
 ### Pretrained model
 Download [deeplabV3+ model pretrained on COCO](https://drive.google.com/file/d/15temSaxnKmGPvNxrKPN6W2lSsyGfCtTB/view?usp=sharing) to this repo.
 
+### Dataset
+Download [DAVIS2017](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip) and [scribbles](https://data.vision.ee.ethz.ch/csergi/share/DAVIS-Interactive/DAVIS-2017-scribbles-trainval.zip) into one folder. Please refer to [DAVIS](https://davischallenge.org/davis2017/code.html).
 ## Train and Test
 ```
 sh run_local.sh
