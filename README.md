@@ -1,7 +1,7 @@
 # CVPR2020 Memory aggregation networks for efficient interactive video object segmentation
 
 This is the pytorch implementation of the CVPR2020 paper "Memory aggregation networks for efficient interactive video object segmentation".
-
+![avatar](./teaser/1836-teaser.gif)
 ## Preparation
 ### Dependencies
  - Python 3.7
@@ -22,6 +22,7 @@ sh run_local.sh
 ## Evaluation
 You can download [our model](https://drive.google.com/file/d/1JjYNha40rtEYKKKFtDv06myvpxagl5dW/view?usp=sharing) for evaluation.
 
+![avatar](./teaser/result_example.pdf)
 ## Citation
 Please cite this paper in your publications if it helps your research:
 ```
