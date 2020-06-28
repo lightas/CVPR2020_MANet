@@ -17,3 +17,15 @@ Download [deeplabV3+ model pretrained on COCO](https://drive.google.com/file/d/1
 ```
 sh run_local.sh
 ```
+
+## Citation
+Please cite this paper in your publications if it helps your research:
+```
+@inproceedings{miao2020memory,
+  title={Memory aggregation networks for efficient interactive video object segmentation},
+  author={Miao, Jiaxu and Wei, Yunchao and Yang, Yi},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10366--10375},
+  year={2020}
+}
+```
