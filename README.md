@@ -17,6 +17,9 @@ Download [deeplabV3+ model pretrained on COCO](https://drive.google.com/file/d/1
 
 ### Dataset
 Download [DAVIS2017](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip) and [scribbles](https://data.vision.ee.ethz.ch/csergi/share/DAVIS-Interactive/DAVIS-2017-scribbles-trainval.zip) into one folder. Please refer to [DAVIS](https://davischallenge.org/davis2017/code.html).
+
+If you need the file "DAVIS2017/ImageSets/2017/v_a_l_instances.txt", please refer to the link https://drive.google.com/file/d/1aLPaQ_5lyAi3Lk3d2fOc_xewSrfcrQlc/view?usp=sharing
+
 ## Train and Test
 ```
 sh run_local.sh
